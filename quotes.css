@@ -1,11 +1,10 @@
 body {
   background-color: #eee;
-    font-size: 15px;
+  font-size: 15px; 
   font-family: lato,sans-serif;
-  color: #666;
-  line-height: 2.42857143;
-}
-  -webkit-font-smoothing: antialiased;a
+  color: #666; 
+  line-height: 1.90857143;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   overflow-x: hidden;
@@ -13,6 +12,37 @@ body {
   image-rendering: -webkit-optimize-contrast;
 }
 
+.app-details h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+
+.p-2 {
+    padding: 1.2rem!important;
+}
+
+
+img, svg {
+
+  max-width: 100%;
+  height: auto;
+}
+
+.header_options .title_category {
+                    font-size: 12px;
+                    background-color: #429cd6;
+                    color: #fff;
+                    padding: 1px 7px;
+                    display: table;
+                    border-radius: 4px;
+}
+				
+.header_options {
+                    display: flex;
+                    margin-bottom: 10px;
+                }			
 
 
 a:focus,
@@ -108,7 +138,7 @@ svg {
 }
 
 .section-title {
-  color: #111;
+  color: #666;
   border-bottom: 1px solid #f4f4f4;
   margin-bottom: 15px;
   padding-bottom: 10px;
